@@ -355,12 +355,15 @@
                  <p>Fill in and submit the form, then reload the page to see how autocomplete works.</p>
                  <p>Notice that autocomplete is "on" for the form, but "off" for the e-mail field!</p>
                 
-                 <form action="">
+                 <form action="" autocomplete="on">
                          <label for="fname">First Name:</label>
-                         <input type="text" id="fname" value="" name="First Name" autocomplete>
+                         <input type="text" id="fname" value="" name="First Name" autofocus>
                          <br><br>
                          <label for="lname">Last Name:</label>
                          <input type="text" id="lname" value="" name="Last Name">
+                         <br><br>
+                         <label for="email">Email:</label>
+                         <input type="email" value="" id="email" name="email">
                          <br><br>
                          <input type="submit" value="Submit" name="Submit">
                  </form>

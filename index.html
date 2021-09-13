@@ -303,6 +303,7 @@
 
                  <h2>Telephone Field</h2>
                  <p>The <strong>input type="tel"</strong> is used for input fields that should contain a telephone number:</p>
+                
                  <form action="">
                          <label for="tel">Enter a phone number:</label>
                          <input type="tel" id="tel" name="telephone no" value="" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890">
@@ -311,5 +312,21 @@
                          <br><br>
                          <input type="submit" value="Submit" name="Submit">
                  </form>
+
+                 <br>
+                 <hr size="5" noshade>
+                 <br>
+
+                 <h1>The input multiple attributes</h1>
+                 <p>The multiple attribute specifies that the user is allowed to enter more than one value in an input field.</p>
+                
+                 <form action="">
+                          <label for="files">Select Files</label>
+                          <input type="file" id="files" value="" name="file" multiple>
+                          <br><br>
+                          <input type="submit" value="Submit" name="submit">
+                 </form>
+
+                 <p>To select multiple files, hold down the CTRL or SHIFT key while selecting.</p>
          </body>
  </html>

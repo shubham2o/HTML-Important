@@ -367,5 +367,25 @@
                          <br><br>
                          <input type="submit" value="Submit" name="Submit">
                  </form>
+
+                 <br>
+                 <hr size="5" noshade>
+                 <br>
+
+                 <h1>The input form attribute</h1>
+                 <p>The form attribute specifies the form an input element belongs to.</p>
+
+                 <form action="" id="form1">
+                         <label for="fname">First Name:</label>
+                         <input type="text" id="fname" value="" name="First Name">
+                         <br><br>
+                         <input type="submit" value="Submit" name="Submit">
+                 </form>
+
+                 <p>The "Last name" field below is outside the form element, but still part of the form.</p>
+
+                 <label for="lname">Last Name:</label>
+                 <input type="text" id="lname" value="" name="Last Name" form="form1">
+
          </body>
  </html>
